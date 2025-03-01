@@ -8,6 +8,15 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      
+    right:
+      - icon: "bi bi-house-fill" 
+        href: index.qmd
+        text: Home
+      - icon: "bi bi-File-earmark-person"
+        href: about.qmd
+        text: About
+
 
 format:
   html:
