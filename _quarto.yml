@@ -4,18 +4,17 @@ project:
 website:
   title: "Group Project"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+
+      
       
     right:
       - icon: "bi bi-house-fill" 
         href: index.qmd
         text: Home
-      - icon: "bi bi-File-earmark-person"
-        href: about.qmd
-        text: About
+      - text: "Prototype"
+        menu:
+          - text: "Proposal"
+            href: proposal.qmd
 
 
 format:
