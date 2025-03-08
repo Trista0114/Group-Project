@@ -14,7 +14,7 @@ website:
       - text: "Prototype"
         menu:
           - text: "Proposal"
-            href: Prototype/Proposal/proposal.qmd
+            href: Teams/Proposal/proposal.qmd
 
 
 format:
