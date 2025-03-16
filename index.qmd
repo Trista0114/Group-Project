@@ -2,6 +2,6 @@
 title: "isss608 Group Project"
 ---
 
-This is a home page for Group3.\
+This is a home page for Group5.\
 ![](images/clipboard-858685931.png){width="240"}\
 Building now..
