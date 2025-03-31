@@ -22,7 +22,7 @@ website:
           - text: "Exploratory Data Analysis & Confirmatory Data Analysis"
             href: Prototype/EDA/Take-home_Ex03.qmd
           - text: "Predictive Modeling"
-            href: Prototype/Predictive/Take-home_Ex03.qmd
+            href: Prototype/Predictive/Take-home_Ex3.qmd
           
             
 
