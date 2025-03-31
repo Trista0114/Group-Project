@@ -21,6 +21,10 @@ website:
         menu:
           - text: "Exploratory Data Analysis & Confirmatory Data Analysis"
             href: Prototype/EDA/Take-home_Ex03.qmd
+          - text: "Explanatory Modeling"
+            href: Prototype/Explanatory/Take-home_Ex3a.qmd
+          - text: "Explanatory Modeling 2"
+            href: Prototype/Explanatory/Take-home_Ex3b.qmd
           - text: "Predictive Modeling"
             href: Prototype/Predictive/Take-home_Ex3.qmd
           
