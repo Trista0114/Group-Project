@@ -17,6 +17,12 @@ website:
             href: Teams/Proposal/proposal.qmd
           - text: "Meeting Minutes"
             href: Teams/Minutes/Meeting_Minutes.qmd
+      - text: "Prototype"
+        menu:
+          - text: "Exploratory Data Analysis & Confirmatory Data Analysis"
+            href: Prototype/EDA/Take-home_Ex03.qmd
+          - text: "Predictive Modeling"
+            href: Prototype/Predictive/Take-home_Ex03.qmd
           
             
 
