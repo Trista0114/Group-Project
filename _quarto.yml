@@ -15,6 +15,10 @@ website:
         menu:
           - text: "Proposal"
             href: Teams/Proposal/proposal.qmd
+          - text: "Proposal"
+            href: Teams/Minutes/Meeting_Minutes.qmd
+          
+            
 
 
 format:

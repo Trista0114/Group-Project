@@ -7,6 +7,13 @@
     "text": "Generate by ChatGPT\n\n\n\n1 Background\nIn recent years, there has been a growing awareness of the benefits of living near environmental amenities, as more research uncovers the impact of neighborhood environments on both physical and mental health[1][2][3][4].\nStudies have shown that factors such as local built environment, proximity to environmental and built amenities and neighbourhood demographics, can significantly influence well-being. Specifically, residing near green spaces has been found to have a positive effect on mental health and encourages physical activity. Correspondingly, some studies have also found that environmental amenities could play a key role in influencing property prices [4], with growing recognition of the importance of green spaces. In Korea for instance, there is a gradual shift towards preference for residential areas near green spaces [5]. However, few studies have examined the relationship between proximity to green amenities and housing prices in Korea. \n\n\n2 Objectives\nThe primary objective of this project is to investigate how various factors, with a greater focus on the environmental amenities and the built environment factors, influences property prices in Korea. The project seeks to understand whether properties located closer to green spaces and other amenities tend to have higher market values. The secondary objective is to explore the interaction between green amenities, the built environment, and other factors, such as neighborhood demographics and seasonality, in shaping property prices.\nThe results from this project will help us gain insight on the factors driving property values in urban settings. As urbanization continues, the demand for green spaces and well-planned environments will likely increase. Understanding the connection between environmental amenities and local built environment and property prices could aid in creating more sustainable and livable urban areas, by offering insights for policymakers, estate developers and urban planners to make data-driven decisions on developing the city’s infrastructure and green spaces.\n\n\n3 Dataset\nTo achieve our objectives, we obtained a dataset used in a research paper to investigate variables influencing property prices in Korea. The dataset comprises of comprehensive information on the property prices in the Busan Metropolitan City of South Korea for transactions in 2018 to 2019 and various factors that influence property prices including characteristics of the property, distance to environmental amenities and local built environments, local demographic characteristics, and season in which the transaction occurred. \n\n\n4 Methodology & Approach\nWe will analyse and visualise the relationships between different factors and the housing prices in Busan by creating interactive R shiny applications.  Users will also be able to analyse the data based on their interests and draw their own insights and conclusions regarding the housing prices in Busan.\nWe will create 4 sub-modules to enable univariate analyses, bivariate analyses and multivariate analyses.\n\n\n5 Prototype Sketches\nThe following sketches were drawn to conceptualise our thoughts and discussions on the layout of the Shiny app along with its various functions. \n\n5.1 Univariate Analysis5.2 Bivariate Analysis5.3 Multivariate Analysis\n\n\nIn this sub-module, we aim to provide tools for analyzing individual variables. The interface includes summary statistics (mean, median, min, max, standard deviation), controls for variable selection and filtering, and a distribution visualization combining boxplot and half eye plot to display the selected variable’s characteristics. \n\n\n\nThis sub-module provides tools for examining relationships between pairs of variables. The interface features a correlation heatmap on the left showing strength of relationships between multiple variables, and a scatterplot on the right displaying the relationship between two selected variables. Controls allow users to select which continuous variables to include in the analysis for both visualization methods. \n\n\n\nThis panel offers tools for analyzing multiple variables simultaneously. It includes controls for selecting variables for clustering analysis, a dendrogram visualization showing hierarchical clustering results, and a parallel coordinate plot displaying relationships across multiple dimensions. \n\nThis panel provides radar plot functionality for multivariate visualization. Controls allow users to select encoded continuous variables and filter by a categorical variable. The radar plot displays multiple dimensions simultaneously with different colors representing different categories.\n\n\n\n\n\n\n6 R packages\nThe R packages we will be using for the project include: \n\nTidyverse for manipulating the data \n\n\n\nggstatplot for visualising statistcal analysis \n\n\n\nGGally / ggpcp / ggparallel for creating parallel coordinate plot \n\n\n\nggdist for visualising distributions\n\n\n\ncorrplot for correlation heatmap \n\n\n\nGgESDA / ggradar / fmsb for radar chart \n\n\n\n7 Project Timeline\n\n\n\n8 Reference\n[1]Yim, D. H., & Kwon, Y. (2021). Does young adults’ neighborhood environment affect their depressive mood? Insights from the 2019 Korean community health survey. International Journal of Environmental Research and Public Health, 18(3), 1269.\n[2]Choi, K. A., & Rezaei, M. (2022). Assessing the Correlation between Neighborhood Green Areas and the Perceived Mental Health of Residents in Metropolitan Areas. Iranian journal of public health, 51(9), 2027.\n\n[3]Han, M. J. N., & Kim, M. J. (2019). Green environments and happiness level in housing areas toward a sustainable life. Sustainability, 11(17), 4768.\n[4]An, S., Jang, H., Kim, H., Song, Y., & Ahn, K. (2023). Assessment of street-level greenness and its association with housing prices in a metropolitan area. Scientific reports, 13(1), 22577.\n[5]Korea Bizwire. (2023, July 8). Changing apartment preferences: Green spaces and comfort take priority in Korea’s housing market."
   },
   {
+    "objectID": "Teams/Minutes/Meeting_Minutes.html",
+    "href": "Teams/Minutes/Meeting_Minutes.html",
+    "title": "Meeting Minutes",
+    "section": "",
+    "text": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline \n\n\n點我前往目標頁面"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -19,5 +26,47 @@
     "title": "isss608 Group Project",
     "section": "",
     "text": "This is a home page for Group5.\n\nBuilding now.."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes1.html",
+    "href": "Teams/Minutes/Meeting_Minutes1.html",
+    "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
+    "section": "",
+    "text": "Project Topic/Dataset \nProject Timeline \nProject Proposal \nWebsite Design Method \nFollow-up Action"
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes1.html#meeting-agenda",
+    "href": "Teams/Minutes/Meeting_Minutes1.html#meeting-agenda",
+    "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
+    "section": "",
+    "text": "Project Topic/Dataset \nProject Timeline \nProject Proposal \nWebsite Design Method \nFollow-up Action"
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-1-project-topicdataset",
+    "href": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-1-project-topicdataset",
+    "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
+    "section": "Agenda Item 1: Project Topic/Dataset",
+    "text": "Agenda Item 1: Project Topic/Dataset\nPeng-Wei suggested using a traffic dataset from Taiwan, which has details on the weather and location of the accidents.  However, as the dataset is in Chinese, the group decided that it will take too much time to encode the data in English. \nXiao Han suggested working on a dataset about problematic internet use in children. However, this dataset requires a lot of encoding and might be more suitable for machine learning. \nJia Rong suggested using the Seoul Bike Sharing Demand dataset and conducting EDA and a prediction model on it. However, the dataset is a bit old (2017–2018). \nXiaohan mentioned that the global traffic accident dataset could be used, but Jia Rong thinks that the dataset has too few feature columns. However, Peng-wei and Xiaohan believe that this dataset is more suitable for visualization as it includes latitude and longitude information. \nIn the end, all three agreed to choose the Seoul bicycle dataset and the global traffic accident dataset as alternatives and will consult the professor later."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-2-project-timeline",
+    "href": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-2-project-timeline",
+    "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
+    "section": "Agenda Item 2: Project Timeline ",
+    "text": "Agenda Item 2: Project Timeline \nThis timeline outlines key tasks, including proposal drafting, data cleaning, Shiny module development, poster creation, and user guide completion, ensuring a structured workflow."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-3-project-proposal",
+    "href": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-3-project-proposal",
+    "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
+    "section": "Agenda Item 3: Project Proposal",
+    "text": "Agenda Item 3: Project Proposal\n\nBelow is the proposal structure that we have agreed on: \n(1) Motivations  \n(2) Objective  \n(3) Dataset description  \n(4) Method – Data analysis approaches and the 3 different Shiny sub-modules each member will work on  \n(5) Prototype/storyboard drawing  \n(6) List of R packages that we will use   \n(7) Project timeline in Gantt Chart"
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-4-website-design-method",
+    "href": "Teams/Minutes/Meeting_Minutes1.html#agenda-item-4-website-design-method",
+    "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
+    "section": "Agenda Item 4: Website design method",
+    "text": "Agenda Item 4: Website design method\nFor the presentation style of the website, we want it to look professional and visually appealing, but without overly cute elements, as our content is related to transportation. \nOur initial idea is to place relevant images on the homepage and design a professional and aesthetically pleasing logo. \n\nAgenda Item 5: Follow-up Action\nPeng-Wei will send the email to professor to check which dataset (Seoul Bike Sharing & Global traffic) is more suitable to use in this project after this meeting. \n\n\n\n\n\n\n\nBefore the next meeting: \n\n\n\nAll team members will work on brainstorming the analysis approach, the type of visualizations we can create using our selected dataset and the potential topic for our project."
   }
 ]
