@@ -1,7 +1,5 @@
 ---
 title: "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline"
-Attendance: "Chen.PengWei, Moo.JiaRong, Zhang.XiaoHan"
-date: "23/02/2025 4.00pm – 05.30pm "
 execute:
   echo: true
   eval: true
@@ -9,13 +7,22 @@ execute:
   freeze: true
 ---
 
-## Meeting Agenda:
 
--   Project Topic/Dataset 
--   Project Timeline 
--   Project Proposal 
--   Website Design Method 
--   Follow-up Action 
+::: {.callout-note}
+## Info
+
+**Attendance**: Chen.PengWei, Moo.JiaRong, Zhang.XiaoHan
+
+**Date**: 23/02/2025 4.00pm – 05.30pm
+
+**Meeting Agenda:**
+
+- Project Topic/Dataset  
+- Project Timeline  
+- Project Proposal  
+- Website Design Method  
+- Follow-up Action  
+:::
 
 ## Agenda Item 1: Project Topic/Dataset
 
