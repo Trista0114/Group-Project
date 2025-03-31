@@ -1,7 +1,39 @@
 ---
-title: "isss608 Group Project"
+title: "Green Spaces and Real Estate: Exploring the Influence of Environmental Factors on Housing Prices in Busan"
+css: style.css
 ---
 
-This is a home page for Group5.\
-![](images/clipboard-858685931.png){width="240"}\
-Building now..
+```{=html}
+<style>
+body {
+  background-image: url('ChatGPT Image Mar 31, 2025, 06_03_19 PM.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text-block {
+  background-color: rgba(255, 255, 255, 0.9); /* 白色半透明背景 */
+  padding: 2em;
+  max-width: 800px;
+  margin: 1em auto; /* 改為 1em，並置中 */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #333; /* 深灰色文字 */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* 白色文字陰影 */
+}
+</style>
+```
+
+::: text-block
+\*\*Welcome to isss608 Group Project\
+Welcome to the Group5 project homepage! The primary objective of this project is to investigate how various factors, with a greater focus on the environmental amenities and the built environment factors, influences property prices in Korea. The project seeks to understand whether properties located closer to green spaces and other amenities tend to have higher market values. The secondary objective is to explore the interaction between green amenities, the built environment, and other factors, such as neighborhood demographics and seasonality, in shaping property prices.
+:::
+::: text-block
+\*\*Project Overview\
+In this project, we integrate various state-of-the-art data analysis methods—from Exploratory Data Analysis (EDA) and Confirmatory Data Analysis (CDA) to Explanatory Modeling and Predictive Modeling. Our comprehensive analytical approach is designed to reveal the underlying value of the data, providing actionable insights that can inform decision-making and drive practical applications.
+:::
+
+

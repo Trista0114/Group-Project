@@ -212,9 +212,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "isss608 Group Project",
+    "title": "Green Spaces and Real Estate: Exploring the Influence of Environmental Factors on Housing Prices in Busan",
     "section": "",
-    "text": "This is a home page for Group5.\n\nBuilding now.."
+    "text": "**Welcome to isss608 Group Project\nWelcome to the Group5 project homepage! The primary objective of this project is to investigate how various factors, with a greater focus on the environmental amenities and the built environment factors, influences property prices in Korea. The project seeks to understand whether properties located closer to green spaces and other amenities tend to have higher market values. The secondary objective is to explore the interaction between green amenities, the built environment, and other factors, such as neighborhood demographics and seasonality, in shaping property prices.\n\n\n**Project Overview\nIn this project, we integrate various state-of-the-art data analysis methods—from Exploratory Data Analysis (EDA) and Confirmatory Data Analysis (CDA) to Explanatory Modeling and Predictive Modeling. Our comprehensive analytical approach is designed to reveal the underlying value of the data, providing actionable insights that can inform decision-making and drive practical applications."
   },
   {
     "objectID": "about.html",
@@ -383,5 +383,12 @@
     "title": "Project Meeting 4: Project Poster",
     "section": "Agenda Item 2: Follow-up Action",
     "text": "Agenda Item 2: Follow-up Action\nThe group decided on the following deadlines: poster due Tuesday, individual Shiny app due Thursday. \nThe division of poster is as follows:\n(1) Introduction + EDA/CDA =&gt; Jia Rong\n(2) description of the data set and the methodology + predictive modelling=&gt; Peng Wei\n(3) conclusion/future work + Cluster based on the best LCA results =&gt;Xiaohan\nThe group also decided to merge the individual parts after each member completes their assigned section. Since the data preprocessing varies for each part, it was tentatively decided not to merge the data for now.\nThe team agree that we can do our user guideline after the poster presentation if we can’t finish before the poster presentation."
+  },
+  {
+    "objectID": "index.html#interactive-insights",
+    "href": "index.html#interactive-insights",
+    "title": "isss608 Group Project",
+    "section": "Interactive Insights",
+    "text": "Interactive Insights\n\nBelow is an example visualization of tourism data. (In a full implementation, this could be a Shiny app embedded via iframe.)\n\n\n\nNote: This is a placeholder. Replace with your Shiny App URL or a static image."
   }
 ]
