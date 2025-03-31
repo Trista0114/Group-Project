@@ -11,7 +11,7 @@
     "href": "Teams/Minutes/Meeting_Minutes.html",
     "title": "Meeting Minutes",
     "section": "",
-    "text": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline"
+    "text": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline\nProject Meeting 2: Project Proposal\nProject Meeting 3: Project Proposal 2\nProject Meeting 4: Project Poster"
   },
   {
     "objectID": "about.html",
@@ -61,5 +61,82 @@
     "title": "Project Meeting 1: Project Dataset, Project Proposal and Project Timeline",
     "section": "Agenda Item 4: Website design method",
     "text": "Agenda Item 4: Website design method\nFor the presentation style of the website, we want it to look professional and visually appealing, but without overly cute elements, as our content is related to transportation. \nOur initial idea is to place relevant images on the homepage and design a professional and aesthetically pleasing logo. \n\nAgenda Item 5: Follow-up Action\nPeng-Wei will send the email to professor to check which dataset (Seoul Bike Sharing & Global traffic) is more suitable to use in this project after this meeting. \n\n\n\n\n\n\n\nBefore the next meeting: \n\n\n\nAll team members will work on brainstorming the analysis approach, the type of visualizations we can create using our selected dataset and the potential topic for our project."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes2.html",
+    "href": "Teams/Minutes/Meeting_Minutes2.html",
+    "title": "Project Meeting 2: Project Proposal",
+    "section": "",
+    "text": "Info\n\n\n\nAttendance: Moo Jia Rong, Zhang Xiao Han, Chen Peng-Wei\nDate: 08/03/2025 3.30pm – 5.30pm\nMeeting Agenda:\n\nProject Proposal Storyboard Design\nWebsite Design\nProposal, Data Cleaning & Shiny app Task allocations\nFollow-up Action"
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-1-project-proposal-storyboard-design",
+    "href": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-1-project-proposal-storyboard-design",
+    "title": "Project Meeting 2: Project Proposal",
+    "section": "Agenda Item 1: Project Proposal Storyboard Design",
+    "text": "Agenda Item 1: Project Proposal Storyboard Design\nJia Rong suggested that the team could approach data analyses through segregating into univariate, bivariate and multivariate analyses. Jia Rong suggested doing boxplot and histogram for univariate analysis, scatter plot and correlation heat map for bivariate analysis. Xiao Han suggested combining box plot and smoothed histogram together in one plot and doing radar plot and geospatial plot. \nPeng-Wei suggested adding summary of mean and median values above the plot for the univariate analysis. Xiao Han suggested doing cluster analysis and radar chart for multivariate analysis. Jia Rong suggested adding a parallel coordinate plot to visualize the cluster analysis results.  \nPeng-Wei pointed out that our dataset is not very suitable for creating geospatial visualizations as the dataset only has the longitude and latitude coordinates but no region or city data. The team agreed and decided to not focus on geospatial visualizations. Peng Wei also suggested using Canva to draw out the storyboard."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-2-website-design",
+    "href": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-2-website-design",
+    "title": "Project Meeting 2: Project Proposal",
+    "section": "Agenda Item 2: Website Design",
+    "text": "Agenda Item 2: Website Design\nXiao Han suggested that we can use the CSS to decorate the website. \nPeng-Wei proposed using basic CSS for the initial design before adding complex features. \nJia Rong recommended adding a navigation bar at the top with clear labels. \nAll agree that the team could develop a website with a green color scheme to match the visualization designs and the overall theme of the project."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-3-proposal-data-cleaning-shiny-app-task-allocations",
+    "href": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-3-proposal-data-cleaning-shiny-app-task-allocations",
+    "title": "Project Meeting 2: Project Proposal",
+    "section": "Agenda Item 3: Proposal, Data Cleaning & Shiny app Task allocations",
+    "text": "Agenda Item 3: Proposal, Data Cleaning & Shiny app Task allocations\n\n3.1 Proposal\nFor the proposal, all team members agree to continue working on the proposal, with Jia Rong finishing the write-up, Xiao Han working on the storyboard and Peng-Wei working on the website design. \nTo ensure the quality of proposal all team members agree that doing cross check for each other’s part of work and then settle down the whole proposal after checking. \n\n\n3.2 Data Cleaning & Shiny app Task allocations\nAll will work on data cleaning to prepare for the project analyses. The submodules will be split amongst the members as follows: \nXiao Han will handle the cluster analysis components of the Shiny app, including implementation of clustering and visualization of parallel coordinate plot. \nJia Rong will focus on bivariate analysis functionality, developing the correlation heatmap and scatterplot components with interactive selection controls. \nPeng-Wei will be responsible for radar chart implementation and univariate analysis features, including summary statistics, boxplots, and distribution visualizations. \nEach team member will handle data cleaning for their respective modules while maintaining consistent data structures for integration."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-4-follow-up-action",
+    "href": "Teams/Minutes/Meeting_Minutes2.html#agenda-item-4-follow-up-action",
+    "title": "Project Meeting 2: Project Proposal",
+    "section": "Agenda Item 4: Follow-up Action",
+    "text": "Agenda Item 4: Follow-up Action\nPeng-Wei needs to upload the proposal on the website before 10 March. \nJia Rong will finalize the proposal write-up by 9 March and share with team members for review. \nXiao Han will complete the storyboard designs using Canva by 9 March for team feedback. \nAll team members will review each other’s work and provide feedback by 10 March to ensure the proposal is ready for submission."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes3.html",
+    "href": "Teams/Minutes/Meeting_Minutes3.html",
+    "title": "Project Meeting 3: Project Proposal 2",
+    "section": "",
+    "text": "Info\n\n\n\nAttendance: Moo Jia Rong, Zhang Xiao Han, Chen Peng-Wei\nDate: 22/03/2025 5.00pm – 6.00pm\nMeeting Agenda:\n\nProject Modules & Shiny app Task allocations (updated base on prof reply)\nFollow-up Action"
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes3.html#agenda-item-1-project-modules-shiny-app-task-allocations",
+    "href": "Teams/Minutes/Meeting_Minutes3.html#agenda-item-1-project-modules-shiny-app-task-allocations",
+    "title": "Project Meeting 3: Project Proposal 2",
+    "section": "Agenda Item 1: Project Modules & Shiny app Task allocations",
+    "text": "Agenda Item 1: Project Modules & Shiny app Task allocations\nFollowing Prof’s feedback on our proposal, the team decided to re-consider the modules to be created for the project. Prof recommended the team to split the modules according to (1) EDA & CDA, (2) Explanatory Modelling and (3) Predictive Modelling.  \nJia Rong said that the modules the team has previously proposed are all on EDA & CDA. Hence the team should select a few of the previous ideas and work on it as 1 module for EDA & CDA. For example, the team could do the boxplot and smoothed histogram for EDA, the scatterplot and the correlation heatmap as CDA. In addition, boxplot for ANOVA can be added for CDA. \nFor explanatory modelling, Jia Rong suggested doing multiple linear regression and perhaps latent class analysis, with reference to senior’s work. As for predictive modelling, Jia Rong suggested trying out random forest and decision tree. \nPeng-Wei suggested that for the random forest part, we can provide an interactive adjustment interface for parameters (such as the number of trees , the number of variables), and instantly displays the model’s prediction performance (such as Accuracy, RMSE, MAE, etc.) in the Shiny app. As for the decision Tree, we can make user adjust parameters such as tree depth and splitting method on the interface, and displaying auxiliary analysis charts such as predicted vs. actual values, residual plots, etc. \nXiao Han suggested using tidyverse, car, and lmtest packages for multiple linear regression analysis with ggplot2 for regression diagnostic plots, while implementing poLCA, mclust, and flexmix packages for latent class analysis since you have previous experience with this technique. She also recommended creating interactive elements using shiny, shinydashboard, and plotly to allow users to dynamically select variables and adjust model parameters."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes3.html#agenda-item-2-follow-up-action",
+    "href": "Teams/Minutes/Meeting_Minutes3.html#agenda-item-2-follow-up-action",
+    "title": "Project Meeting 3: Project Proposal 2",
+    "section": "Agenda Item 2: Follow-up Action",
+    "text": "Agenda Item 2: Follow-up Action\nJia Rong will work on the EDA + CDA submodule. \nPeng-Wei will work on the predictive modelling module. \nXiao Han will work on the explanatory modelling module. \nAll team members agreed to finish their modules by 29th March and have another meeting to work on the poster and the user guide."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes4.html",
+    "href": "Teams/Minutes/Meeting_Minutes4.html",
+    "title": "Project Meeting 4: Project Poster",
+    "section": "",
+    "text": "Info\n\n\n\nAttendance: Moo Jia Rong, Zhang Xiao Han, Chen Peng-Wei\nDate: 29/03/2025 4.00pm – 5.00pm\nMeeting Agenda:\n\nDecide Poster Design and Content\nFollow-up Action"
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes4.html#agenda-item-1-decide-poster-design-and-content",
+    "href": "Teams/Minutes/Meeting_Minutes4.html#agenda-item-1-decide-poster-design-and-content",
+    "title": "Project Meeting 4: Project Poster",
+    "section": "Agenda Item 1: Decide Poster Design and Content",
+    "text": "Agenda Item 1: Decide Poster Design and Content\nThe team agreed to use green color as the theme for the poster, based on the theme of the project. \nPeng Wei suggested adding the QR code to our shiny app in the poster. Jia Rong thinks it depends on whether we can finish setting up the shiny app website before submission of the poster. Xiaohan suggested we can put QR code linked to group website. Finally, all agree we should link QR code directly to shiny app. \nXiao Han suggested only including the latent class analysis results into the poster for the explanatory modelling module, as there is not enough space to include the multiple regression results. The team agreed to pick the more interesting results to showcase in the poster. \nJia Rong suggested that each team member should work on the content for their own modules in the poster and additional work on one of the following sections: (1) Introduction, (2) brief description of the data set and the modules/ methodology for the project and (3) conclusion/future work."
+  },
+  {
+    "objectID": "Teams/Minutes/Meeting_Minutes4.html#agenda-item-2-follow-up-action",
+    "href": "Teams/Minutes/Meeting_Minutes4.html#agenda-item-2-follow-up-action",
+    "title": "Project Meeting 4: Project Poster",
+    "section": "Agenda Item 2: Follow-up Action",
+    "text": "Agenda Item 2: Follow-up Action\nThe group decided on the following deadlines: poster due Tuesday, individual Shiny app due Thursday. \nThe division of poster is as follows:\n(1) Introduction + EDA/CDA =&gt; Jia Rong\n(2) description of the data set and the methodology + predictive modelling=&gt; Peng Wei\n(3) conclusion/future work + Cluster based on the best LCA results =&gt;Xiaohan\nThe group also decided to merge the individual parts after each member completes their assigned section. Since the data preprocessing varies for each part, it was tentatively decided not to merge the data for now.\nThe team agree that we can do our user guideline after the poster presentation if we can’t finish before the poster presentation."
   }
 ]

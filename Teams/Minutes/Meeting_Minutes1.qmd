@@ -7,8 +7,7 @@ execute:
   freeze: true
 ---
 
-
-::: {.callout-note}
+::: callout-note
 ## Info
 
 **Attendance**: Chen.PengWei, Moo.JiaRong, Zhang.XiaoHan
@@ -17,11 +16,11 @@ execute:
 
 **Meeting Agenda:**
 
-- Project Topic/Dataset  
-- Project Timeline  
-- Project Proposal  
-- Website Design Method  
-- Follow-up Action  
+-   Project Topic/Dataset\
+-   Project Timeline\
+-   Project Proposal\
+-   Website Design Method\
+-   Follow-up Action\
 :::
 
 ## Agenda Item 1: Project Topic/Dataset
