@@ -12,6 +12,7 @@ website:
       - icon: "bi bi-house-fill" 
         href: index.qmd
         text: Home
+      
       - text: "Teams"
         menu:
           - text: "Proposal"
@@ -28,6 +29,8 @@ website:
             href: Prototype/Explanatory/Take-home_Ex3b.qmd
           - text: "Predictive Modeling"
             href: Prototype/Predictive/Take-home_Ex3.qmd
+      - text: "Poster"
+        href: Poster.qmd
           
             
 
