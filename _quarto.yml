@@ -31,6 +31,8 @@ website:
             href: Prototype/Predictive/Take-home_Ex3.qmd
       - text: "Poster"
         href: Poster.qmd
+      - text: "Shiny app"
+        href: https://isss608trista.shinyapps.io/Shiny_app/
           
             
 
