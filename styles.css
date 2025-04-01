@@ -8,6 +8,36 @@ body {
     padding: 0;
 }
 
+.navbar {
+    background-color: #8ab0ab !important; /* Dark Gray-Blue */
+}
+
+/* Change navbar text color */
+.navbar a, .navbar-brand, .navbar-nav .nav-link {
+    color: white !important; /* White text */
+}
+
+/* Change navbar text hover color */
+.navbar a:hover, .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #525355 !important; /* when hovering */
+    
+}
+/* 修改下拉選單的背景顏色和字體顏色 */
+.navbar .dropdown-menu {
+    background-color: #dfe2e2 !important; /* 白色背景 */
+    border: 1px solid #ccc; /* 可選：增加邊框 */
+}
+
+/* 修改下拉選單內文字顏色 */
+.navbar .dropdown-item {
+    color: #212529 !important; /* 深灰色文字 */
+}
+
+/* 當滑鼠懸停時的樣式 */
+.navbar .dropdown-item:hover {
+    background-color: #8ab0ab !important; /* 淺灰色背景 */
+    color: white !important; /* 更深的灰色文字 */
+}
 
 
 /* 標題 */
@@ -22,14 +52,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-h2 {
-    font-size: 1.8em;
-    margin-top: 30px;
-}
 
-h3 {
-    font-size: 1.5em;
-}
 
 
 /* 連結 */
@@ -104,6 +127,24 @@ button:hover, .btn:hover {
     padding: 20px;
     border: 1px solid #e0e6e0; /* 淺灰邊框 */
     border-radius: 0 5px 5px 5px; /* 上方左邊直線，其他圓角 */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f6f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* 頁面容器 */
+.quarto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
 }
 
 

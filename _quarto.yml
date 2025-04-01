@@ -1,6 +1,7 @@
 project:
   type: website
 
+
 website:
   title: "isss608 Group 5"
   navbar:
@@ -33,9 +34,6 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
     css: styles.css
     toc: true
 
