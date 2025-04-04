@@ -179,22 +179,37 @@ ul.task-list li input[type="checkbox"] {
 <style>
 body {
   background-image: url('ChatGPT Image Mar 31, 2025, 06_03_19 PM.png');
-  background-size: cover;
+  background-size: cover; /* 保持圖片覆蓋整個區域 */
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed; /* 固定背景，避免滾動時移動 */
   margin: 0;
   padding: 0;
+  min-height: 100vh; /* 確保高度至少填滿視窗 */
 }
 
 .text-block {
   background-color: rgba(255, 255, 255, 0.9); /* 白色半透明背景 */
   padding: 2em;
   max-width: 800px;
-  margin: 1em auto; /* 改為 1em，並置中 */
+  margin: 1em auto; /* 置中並保持邊距 */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #333; /* 深灰色文字 */
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* 白色文字陰影 */
+}
+
+/* 響應式設計：針對小螢幕調整 */
+@media (max-width: 768px) {
+  body {
+    background-size: cover; /* 確保圖片適應小螢幕 */
+  }
+  
+  .text-block {
+    margin: 0.5em; /* 在小螢幕上減少邊距 */
+    padding: 1em; /* 減少內邊距 */
+    max-width: 100%; /* 讓文字區塊適應螢幕寬度 */
+  }
 }
 </style>
 <div class="text-block">
