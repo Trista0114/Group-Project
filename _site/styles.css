@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-.navbar {
+.navbar {height: 60px;
     background-color: #8ab0ab !important; /* Dark Gray-Blue */
 }
 

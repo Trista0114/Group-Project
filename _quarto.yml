@@ -19,6 +19,9 @@ website:
             href: Teams/Proposal/proposal.qmd
           - text: "Meeting Minutes"
             href: Teams/Minutes/Meeting_Minutes.qmd
+          - text: "About Us"
+            href: Teams/About_Us/About _Us.qmd
+            
       - text: "Prototype"
         menu:
           - text: "Exploratory Data Analysis & Confirmatory Data Analysis"
