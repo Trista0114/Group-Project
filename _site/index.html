@@ -195,7 +195,34 @@ body {
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); 
 }
 
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
 
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 10px;
+}
+.card iframe {
+  width: 100%; /* iframe 寬度與卡片內部一致 */
+  height: 200px; /* 固定高度，可根據需求調整 */
+  border: none; /* 移除 iframe 邊框 */
+}
+.card a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+.card a:hover {
+  color: #0056b3;
+}
+
+.card-container {
+  display: flex; /* 使用 Flexbox 並排 */
+  gap: 20px; /* 卡片之間的間距 */
+  justify-content: center; /* 水平居中對齊 */
+}
 
 @media (max-width: 768px) {
   body {
@@ -206,6 +233,13 @@ body {
     margin: 0.5em; 
     padding: 1em; 
     max-width: 100%; 
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>
@@ -220,6 +254,18 @@ Welcome to the Group5 project homepage! The primary objective of this project is
 In this project, we integrate various state-of-the-art data analysis methods—from Exploratory Data Analysis (EDA) and Confirmatory Data Analysis (CDA) to Explanatory Modeling and Predictive Modeling. Our comprehensive analytical approach is designed to reveal the underlying value of the data, providing actionable insights that can inform decision-making and drive practical applications.</p>
 </div>
 <p>background photo sources: <a href="https://www.canva.com/zh_tw/">canva</a></p>
+</div>
+<div class="card">
+<h3 class="anchored">
+Shiny App
+</h3>
+<p><iframe src="https://isss608trista.shinyapps.io/Shiny_app/" width="300" height="200" frameborder="0"></iframe> <br> <a href="https://isss608trista.shinyapps.io/Shiny_app/">Go explore</a></p>
+</div>
+<div class="card">
+<h3 class="anchored">
+Prototype
+</h3>
+<p><iframe src="https://isss608group5.netlify.app/prototype/eda/take-home_ex03" width="300" height="200" frameborder="0"></iframe> <br> <a href="https://isss608group5.netlify.app/prototype/eda/take-home_ex03">Go explore</a></p>
 </div>
 
 
