@@ -20,7 +20,7 @@ website:
           - text: "Meeting Minutes"
             href: Teams/Minutes/Meeting_Minutes.qmd
           - text: "About Us"
-            href: Teams/About_Us/About _Us.qmd
+            href: Teams/About_Us/About_Us.qmd
             
       - text: "Prototype"
         menu:

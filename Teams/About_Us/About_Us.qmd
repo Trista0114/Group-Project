@@ -1,7 +1,5 @@
 ---
 title: "🫠 A Team Held Together by  Deadlines"
-
-css: style.css
 ---
 
 When creativity runs dry, Shiny keeps us cry...

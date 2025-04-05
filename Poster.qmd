@@ -1,4 +1,1 @@
-
-```{=html}
-<img src="images/ISSS608_AY2024-25Jan_Group05.jpg" style="width: 90%; height: auto; display: block; margin: 0 auto;" alt="Group 05 Image">
-```
+<img src="images/ISSS608_AY2024-25Jan_Group05.jpg" alt="Group 05 Image" style="width: 90%; height: auto; display: block; margin: 0 auto;"/>
