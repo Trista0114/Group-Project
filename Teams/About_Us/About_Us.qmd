@@ -1,6 +1,9 @@
 ---
-title: About Us
+title: "🫠 A Team Held Together by  Deadlines"
+
 css: style.css
 ---
+
+When creativity runs dry, Shiny keeps us cry...
 
 ![](images/clipboard-3105582715.png)
