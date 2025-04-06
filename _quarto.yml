@@ -33,7 +33,7 @@ website:
           - text: "Predictive Modeling"
             href: Prototype/Predictive/Take-home_Ex3.qmd
       - text: "Poster"
-        href: Poster/Poster.qmd
+        href: "Poster/Poster.pdf"
       - text: "Shiny app"
         menu:
           - text: "Shiny app"
