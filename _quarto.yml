@@ -33,10 +33,13 @@ website:
           - text: "Predictive Modeling"
             href: Prototype/Predictive/Take-home_Ex3.qmd
       - text: "Poster"
-        href: Poster.qmd
+        href: Poster/Poster.qmd
       - text: "Shiny app"
-        href: https://isss608trista.shinyapps.io/Shiny_app/
-          
+        menu:
+          - text: "Shiny app"
+            href: "https://isss608trista.shinyapps.io/Shiny_app/"
+          - text: "User Guide"
+            href: "Shiny_app/User_guide/User_guide.pdf"
             
 
 
